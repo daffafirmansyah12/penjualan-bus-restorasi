@@ -1,0 +1,4 @@
+# Cegah file di folder uploads dijalankan sebagai PHP (keamanan upload)
+<FilesMatch "\.(php|phtml|php[0-9]|phar)$">
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,4 @@
+# File upload dari pengguna tidak ikut ke GitHub
+# (folder tetap ada lewat file .gitkeep)
+uploads/*/*
+!uploads/*/.gitkeep

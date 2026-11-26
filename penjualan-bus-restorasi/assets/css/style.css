@@ -1,0 +1,13 @@
+/* assets/css/style.css : gaya tambahan di luar Bootstrap */
+.hero {
+    background: linear-gradient(135deg, #212529 0%, #343a40 100%);
+    color: #fff;
+    border-radius: .75rem;
+}
+.card-layanan {
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+.card-layanan:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
